@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsserviço: Registrador de Exercícios</title>
+    <link rel="stylesheet" href="/css/projects.css" />
+  </head>
+  <body>
+    <h1>Projeto:</h1> 
+    <div class="container">
+      <h2>Microsserviço: Registrador de Exercícios</h2>
+      <h2 class="subtitle">Criar Usuário</h2>
+      <input type="text" id="username" placeholder="Nome de usuário" />
+      <button id="createUserBtn">Criar Usuário</button>
+      <div id="userCreatedMsg"></div>
+      <h2 class="subtitle">Adicionar Exercício</h2>
+      <input type="text" id="userId" placeholder="ID do Usuário" />
+      <input type="text" id="description" placeholder="Descrição" />
+      <input type="number" id="duration" placeholder="Duração (minutos)" />
+      <input type="date" id="date" />
+      <button id="addExerciseBtn">Adicionar Exercício</button>
+      <div id="exerciseAddedMsg"></div>
+      <h2 class="subtitle">Consultar Logs</h2>
+      <input type="text" id="userIdLogs" placeholder="ID do Usuário" />
+      <input type="date" id="fromDate" />
+      <input type="date" id="toDate" />
+      <input type="number" id="limit" placeholder="Limite" />
+      <button id="getLogsBtn">Consultar Logs</button>
+      <div id="logsMsg"></div>
+    </div>
+    <p class="author">Autor: <b>João Carlos Chavatte</b></p>
+    <div class="back" style="text-align: center">
+      <a href="/" class="button">Voltar</a>
+    </div>
+    <script src="/script/exercise.js"></script>
+  </body>
+</html>

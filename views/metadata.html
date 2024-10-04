@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsserviço: Análise de Arquivo</title>
+    <link rel="stylesheet" href="/css/projects.css" />
+  </head>
+  <body>
+    <h1>Projeto:</h1>
+    <div class="container">
+      <h2>Microserviço: Análise de Arquivo</h2>
+      <form
+        action="/api/fileanalyse"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <input type="file" name="upfile" />
+        <input type="submit" value="Enviar" />
+      </form>
+      <div id="result"></div>
+    </div>
+    <p class="author">Autor: <b>João Carlos Chavatte</b></p>
+    <div style="text-align: center">
+      <a href="/" class="button">Voltar</a>
+    </div>
+  </body>
+</html>

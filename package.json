@@ -1,0 +1,23 @@
+{
+  "name": "api-freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "João Carlos Chavatte",
+  "license": "ISC",
+  "dependencies": {
+    "api-freecodecamp": "file:",
+    "body-parser": "^2.0.1",
+    "express": "^5.0.0",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.9"
+  }
+}
