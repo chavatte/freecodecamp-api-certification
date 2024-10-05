@@ -1,13 +1,21 @@
 {
   "name": "api-freecodecamp",
   "version": "1.0.0",
-  "description": "",
+  "description": "API para os projetos do módulo Back-End e APIs da freeCodeCamp",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "freecodecamp",
+    "api",
+    "backend",
+    "timestamp",
+    "encurtador de url",
+    "registrador de exercícios",
+    "metadados de arquivos"
+  ],
   "author": "João Carlos Chavatte",
   "license": "ISC",
   "dependencies": {

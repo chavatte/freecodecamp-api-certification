@@ -208,4 +208,4 @@ Um microsserviço que pode analisar arquivos enviados e retornar seus metadados,
 
 * [FreeCodeCamp](https://www.freecodecamp.org/)
 * [Certificação de APIs e Microsserviços](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
-* [Certificado]() 
+* [Certificado](https://www.freecodecamp.org/certification/chavatte/back-end-development-and-apis) 
